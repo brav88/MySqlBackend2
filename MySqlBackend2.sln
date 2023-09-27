@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MySqlBackend2", "MySqlBackend2\MySqlBackend2.csproj", "{826FA219-C9E0-4B45-AA5F-9DF2D3B4CE90}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{826FA219-C9E0-4B45-AA5F-9DF2D3B4CE90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{826FA219-C9E0-4B45-AA5F-9DF2D3B4CE90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{826FA219-C9E0-4B45-AA5F-9DF2D3B4CE90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{826FA219-C9E0-4B45-AA5F-9DF2D3B4CE90}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {42AD8BBD-1119-4429-9357-31A5E2A1AB98}
+	EndGlobalSection
+EndGlobal

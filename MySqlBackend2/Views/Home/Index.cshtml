@@ -1,0 +1,39 @@
+﻿@{
+	ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+	<div class="container">
+		<h1>Orders Table</h1>
+		<table class="table table-bordered">
+			<thead>
+				<tr>
+					<th>Order ID</th>
+					<th>Order Date</th>
+					<th>Customer Name</th>
+					<th>Contact Person</th>
+					<th>Email</th>
+					<th>Quantity</th>
+					<th>Product Name</th>
+					<th>Price</th>
+				</tr>
+			</thead>
+			<tbody>
+				@foreach (var order in @ViewBag.OrderList)
+				{
+					<tr>
+						<td>@order.OrderId</td>
+						<td>@order.OrderDate</td>
+						<td>@order.CustomerName</td>
+						<td>@order.ContactPerson</td>
+						<td>@order.ContactPerson</td>
+						<td>@order.Email</td>
+						<td>@order.ProductName</td>
+						<td>@order.Price</td>
+					</tr>
+				}
+			</tbody>
+		</table>
+	</div>
+
+</div>
